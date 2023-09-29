@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+      (function(){
+          emailjs.init("6GwcTiZ2jYS06_cC6");
+      })();
+</script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#"><img src="logo.png" id="logo"/></a>
+    <ul id="menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skill">skills</a></li>
+        <li><a href="#project">work</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="humbar">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+    </div>
+</div>
+<section id="home">
+  <h1>hi,Iam <span>Sivaram</span></h1>
+        <h2>Front-end dev</h2>
+        <img src="images.jpeg" id="man"/>
+      </section>
+      <section id="about">
+        <div class="row-1">
+          <div class="col-1">
+          <h1>About me</h1>
+          <p><i>My name is Sivaram I'm a Front End developer located in india.I describe myself as a passionate developer who loves the web 
+          platform. In my free time watching movie and listening songs,That's all about me...</i>
+          </p>
+          <a href="sivaram doc.docx" download class="btn">Download CV</a>
+        </div>
+          <div class="col-2">
+          <img src="sivaram.jpg" id="siva"/>
+        </div>
+        </div>
+      </section>
+      <section id="skill">
+        <div class="c1">
+        <h1>Skills</h1>
+        <ul>
+          <li><i>Html</i></li>
+          <li><i>Css</i></li>
+          <li><i>Js</i></li>
+          <li><i>C</i></li>
+          </ul>
+      </div>
+        <img src="man.png" id="com"/>
+      </section>
+      <section id="project">
+        <h1>Work</h1>
+        <h3>My Front end project</h3>
+        <div class="container">
+        </div>
+      </section>
+      <section id="contact">
+        <div class="row">
+          <div class="col-left">
+            <h1>My-Contact</h1>
+            <h3>Address</h3>
+            <p>6/376 South Colony,Puthiamputhur,<br>Thoothukudi-628402</p>
+            <i class="fa-solid fa-phone"><span>Phone</span></i>
+            <p>+91-8610509399</p>
+            <i class="fa-solid fa-envelope"><span>Email</span></i>
+            <p>tsivaram18102003@gmail.com</p>
+          </div>
+          <div class="col-right">
+           <h1>Contact Form</h1>
+           <form>
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Enter Your name" required/>
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter Your email" required/>
+            <label>Message</label>
+            <textarea id="message" placeholder="Enter Your Message"></textarea>
+            <button onclick="SendMail();" id="btn">send</button>
+           </form>
+          </div>
+        </div>
+      </section>
+      <footer class="foot">
+        <img src="logo.png" id="log"/>
+        <div class="social-link">
+          <a href="https://www.instagram.com/mr_siva__ram/?next=%2F&hl=en"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/tsiva18"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/siva-ram-23426b265/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="copy">
+          <p>Copyright-2023 developed By Sivaram</p>
+        </div>
+        
+      </footer>
+<script src="script.js"></script>
+</body>
+</html>
